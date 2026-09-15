@@ -70,3 +70,16 @@ python predict.py \
 ```
 
 Prediction outputs include colored masks, overlays, optional error maps, and CSV metrics when ground-truth masks are available.
+
+
+## Evaluation
+
+The model is evaluated using:
+
+- mIoU
+- mPrecision
+- mRecall
+- mF1
+- mAcc
+
+When ground-truth masks are available, the prediction script automatically reports the corresponding evaluation metrics.
