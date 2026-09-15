@@ -1,1 +1,1 @@
-# Please click Code to view the implementation details.
+# Please click code to view the implementation details.
